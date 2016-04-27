@@ -58,3 +58,29 @@ color:#56AEF3;/*синій 100*/
 color:#400000; /*шоколад 111*/
 }
 
+table, td, th {
+border: 1px solid #cccccc;
+text-align: center;
+}
+
+table {
+	width: 700px;
+	border-collapse: collapse;
+	margin: 25px auto;
+}
+
+td, th {
+	height: 50px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+th {
+	background-color: #fefecc;
+	background-image: url(../images/tablebg.jpg);
+}
+
+tr.blue td {
+	background-color: #ceefff;
+}

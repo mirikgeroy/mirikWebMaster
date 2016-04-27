@@ -8,7 +8,7 @@ padding: 0;
 
 #main {
 width:800px;
-height:821px;
+height:1221px;
 margin:29px auto;
 outline: 1px solid #faa21a;
 background-image:url(../images/bg_s.jpg);
@@ -28,4 +28,10 @@ background-position: 20px 190px;
 
 #wrapper {
 	outline: 1px solid #cc0000;
+	background-image:url(../images/tel.jpg);
+background-repeat: no-repeat;
+background-position: 0 120px;
+background-attachment: fixed;
+/*
+background: url(..//images/tel.jpg) no-repeat fixed 0 120px;*/
 }
