@@ -4,7 +4,8 @@ color: #333333;
 padding:15px;
 margin:0 auto;
 width:700px;
-background-color:#f6f6f6;
+background-color:#ffffff;
+border: 1px solid #cccccc;
 }
 
 p {
@@ -83,4 +84,10 @@ th {
 
 tr.blue td {
 	background-color: #ceefff;
+}
+
+#myimg {
+	border: none;
+	float: right;
+	margin: 20px 0 20px 20px;
 }

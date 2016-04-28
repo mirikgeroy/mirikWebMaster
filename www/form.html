@@ -3,13 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>форми</title>
+<link href="css/style_form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<div id="wrapper">
 	<form action="formdata.php" method="GET" name="form1">
 		<fieldset>
-			<legend>ввод особистих даних</legend>
-			<p><label>введіть ваше імя (макс 15 символів):<input tipe="text" name="name" size="30"maxlength="15"></label></p>
-			<p><label>введіть ваш пароль (макс 15 символів):<input type="password" name="password" size="30"maxlength="15"></label></p>
+			<legend >ввод особистих даних</legend>
+			<p class="question"><label for="name">введіть ваше імя (макс 15 символів):</label></p>
+			<p><input tipe="text" name="name" id="name" size="30"maxlength="15"></p>
+			<p class="question"><label for="password">введіть ваш пароль (макс 15 символів):</label></p>
+			<p><input type="password" name="password" id="password" size="30"maxlength="15"></p>
 		</fieldset>
 		<fieldset>
 		<legend>надрачувателі</legend>
@@ -22,7 +26,7 @@
 		<label><input type="checkbox" name="sv">ложкою</label>
 		<label><input type="checkbox" name="yy" checked>ногами</label></p>
 		</p>
-		<p>Як часто ви дрочите в день?</p>
+		<p class="question">Як часто ви дрочите в день?</p>
 		<p>
 			<select name="sleep">
 				<option>кожен час</option>
@@ -33,12 +37,13 @@
 				</select>
 		</p>
 		</fieldset>
-		<p><label for="text">розкажіть про свої напрацювання при дрочінні:</label></p>
+		<p class="question"><label for="text">розкажіть про свої напрацювання при дрочінні:</label></p>
 		<p><textarea name="text" cols="50" row="6" id="text">тестовий дроч....</textarea></p>
 		<p><input type="reset" name="reset" value="!КОНЧИТЬ!"><input type="submit" name="submit" value="подрочити"></p>
 		<p><input type="image" src="images/ibutton.png" name="imagesButton"></p>
 		<p><input type="button" value="секс!!!"></p>
 		
 	</form>
+	</div>
 </body>
 </html>

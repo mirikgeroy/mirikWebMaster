@@ -1,0 +1,17 @@
+body {
+	font: 11px verdana,sans-serif;
+	color:#333333;
+}
+
+#wrapper {
+	width: 500px;
+}
+
+.question {
+	font-weight: bold;
+}
+
+fieldset {
+	padding: 0 10px;
+	border: 
+}
