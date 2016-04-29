@@ -15,9 +15,21 @@ body {
 	height: 75px;
 	background-image: url(../images/redHeader.png);
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 #content {
 padding: 20px 30px;
 }
 
+#new {
+position: absolute;
+left: 0;
+top: 0px;
+}
+
+#button {
+	position: absolute;
+	left: 294px
+	top:-14px;
+}
